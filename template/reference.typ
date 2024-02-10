@@ -5,7 +5,7 @@
 #let NOTE(doc)={
   rect(fill: luma(225), stroke: (left: 0.25em), width: 100%)[
     #text(size: 18pt, weight: "bold", fill: rgb("259AE8"))[
-      #image("../asset/chapter0/emoji/notepad.png", width: 5%)
+      #image("../asset/basic/emoji/notepad.png", width: 5%)
     ]
     #doc
   ]
@@ -18,7 +18,7 @@
       size: 18pt,
       weight: "bold",
       fill: rgb("#75664d"),
-    )[#image("../asset/chapter0/emoji/lamp.png", width: 5%)]
+    )[#image("../asset/basic/emoji/lamp.png", width: 5%)]
     #text(weight: "regular")[
       #doc
     ]
