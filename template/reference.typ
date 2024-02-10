@@ -97,6 +97,11 @@
   ]
   pad(left: 0em)[]
 }
+#let line_dc = {
+  align(center)[
+    line(length: 70%)
+  ]
+}
 
 // 概念复习
 
