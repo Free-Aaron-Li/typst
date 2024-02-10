@@ -85,7 +85,7 @@
 }
 
 // 下划线
-#let line = {
+#let line_cs = {
   box(width: 1fr, line(length: 100%))
   pad(left: 0em)[]
 }
