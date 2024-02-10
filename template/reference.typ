@@ -91,9 +91,9 @@
 }
 #let line_end = {
   box()[
-    #box(width: 1fr, line)
+    #box(width: 1fr, line_cs)
     #text(size:15pt)[*END*]
-    #box(width: 1fr, line)
+    #box(width: 1fr, line_cs)
   ]
   pad(left: 0em)[]
 }
