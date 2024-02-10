@@ -99,7 +99,7 @@
 }
 #let line_dc = {
   align(center)[
-    line(length: 70%)
+    #line(length: 70%)
   ]
 }
 
