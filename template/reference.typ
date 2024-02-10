@@ -88,6 +88,7 @@
 #let line_cs = {
   box(width: 1fr, line(length: 100%))
   pad(left: 0em)[]
+  indent
 }
 #let line_end = {
   box()[
@@ -95,12 +96,13 @@
     #text(size:15pt)[*END*]
     #box(width: 1fr, line_cs)
   ]
-  pad(left: 0em)[]
+  indent
 }
 #let line_dc = {
   align(center)[
     #line(length: 80%)
   ]
+  indent
 }
 
 // 概念复习
