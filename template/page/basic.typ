@@ -105,7 +105,7 @@
   //---------
   set text(
     size: 11pt, // 字号
-    font: ("Times New Roman", "Source Han Serif SC"), // 字体族
+    font: ("Times New Roman Cyr", "Source Han Serif SC"), // 字体族
     lang: "zh", // 语言
     region: "cn", // 区域
     fill: black, // 字体颜色
