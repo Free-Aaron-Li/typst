@@ -106,10 +106,16 @@
 }
 
 // 概念复习
-
 #let Concept_review(doc)={
   rect(width: 100%)[
     #POINT[概念复习] \
+    #doc
+  ]
+}
+
+// 楷体文本
+#let regular_script(doc)={
+  text(font:("FZKai-Z03S"),size:11pt)[
     #doc
   ]
 }
