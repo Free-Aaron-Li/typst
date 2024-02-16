@@ -143,4 +143,10 @@
   // 正文
   //---------
   columns(1, doc)
+
+  //---------
+  // 参考文献
+  //---------
+  pagebreak()
+  bibliography("../../../reference/ref.bib",style: "gb-7714-2015-author-date")
 }
