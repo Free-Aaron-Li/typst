@@ -83,6 +83,17 @@
     \
   ]
 }
+// 例题——文档版本
+#let example_dc(title: none, solutions: none)={
+  pad(x: 2em)[
+    #examples_num.step()
+    *例 #examples_num.display():*
+    #title \
+    *解：*
+    #solutions
+  ]
+  indent
+}
 
 // 下划线
 #let line_cs = {
