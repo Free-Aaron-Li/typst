@@ -78,9 +78,9 @@
     #set enum(numbering: "(a)")
     #examples_num.step()
     *例 #examples_num.display():*
-    #title \
-    *解：*
-    #solutions
+    #title 
+
+    #pad(x:0em)[*解：*#solutions]
     \
   ]
 }
