@@ -75,6 +75,7 @@
 #let examples_num = counter("none")
 #let example(title: none, solutions: none)={
   pad(x: 0em)[
+    #set enum(numbering: "(a)")
     #examples_num.step()
     *例 #examples_num.display():*
     #title \
