@@ -131,3 +131,14 @@
     #doc
   ]
 }
+
+// 方程组
+#let equations(
+  title: [方程组], // 引用标题
+  doc, // 正文
+)={
+  text()[
+    #set math.equation(numbering: "(1)", supplement: title)
+    #doc
+  ]
+}
