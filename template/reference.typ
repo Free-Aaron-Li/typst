@@ -78,9 +78,9 @@
     #set enum(numbering: "(a)")
     #examples_num.step()
     *例 #examples_num.display():*
-    #title 
+    #title
 
-    #pad(x:0em)[*解：*#solutions]
+    #pad(x: 0em)[*解：*#solutions]
     \
   ]
 }
@@ -89,9 +89,9 @@
   pad(x: 2em)[
     #examples_num.step()
     *例 #examples_num.display():*
-    #title 
+    #title
 
-    #pad(x:0em)[*解：* #solutions]
+    #pad(x: 0em)[*解：* #solutions]
   ]
   indent
 }
@@ -105,7 +105,7 @@
 #let line_end = {
   box()[
     #box(width: 1fr, line_cs)
-    #text(size:15pt)[*END*]
+    #text(size: 15pt)[*END*]
     #box(width: 1fr, line_cs)
   ]
   indent
@@ -127,7 +127,7 @@
 
 // 楷体文本
 #let regular_script(doc)={
-  text(font:("FZKai-Z03S"),size:11pt)[
+  text(font: ("FZKai-Z03S"), size: 11pt)[
     #doc
   ]
 }
