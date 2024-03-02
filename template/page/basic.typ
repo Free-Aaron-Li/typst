@@ -1,5 +1,6 @@
 #import "@preview/hydra:0.3.0": hydra // 页眉自定义
 #import "@preview/mitex:0.2.1": mitex // latex 支持
+#import "./../reference.typ": *
 
 //---------------------------------
 // 基本模板
@@ -38,8 +39,10 @@
     if it.level == 1 {
       set align(center)
       text(20pt)[#it]
+      examples_num.update(0)
     } else {
       it;
+      examples_num.update(0)
     }
     text()[#v(0.3em, weak: true)];
     text()[#h(0em)]
