@@ -1,6 +1,7 @@
 #import "@preview/hydra:0.3.0": hydra // 页眉自定义
 #import "@preview/mitex:0.2.1": mitex // latex 支持
-#import "./../reference.typ": *
+// #import "./../reference.typ": *
+#import "../reference.typ": *
 
 //---------------------------------
 // 基本模板
