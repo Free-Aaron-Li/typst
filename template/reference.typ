@@ -1,3 +1,6 @@
+#import "@preview/tablex:0.0.6": tablex, hlinex
+#import "@preview/tablem:0.1.0": tablem
+
 // 缩进
 #let indent = h(2em)
 
@@ -142,3 +145,20 @@
     #doc
   ]
 }
+
+// 三列表格
+// 参考：https://github.com/OrangeX4/typst-tablem?tab=readme-ov-file#usage
+#let three-line-table = tablem.with(
+  ignore-second-row: true,
+  render: (columns: auto, ..args) => {
+    tablex(
+      columns: columns,
+      auto-lines: false,
+      align: center + horizon,
+      hlinex(y: 0),
+      hlinex(y: 1),
+      ..args,
+      hlinex(),
+    )
+  }
+)
