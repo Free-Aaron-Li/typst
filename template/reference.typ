@@ -143,3 +143,14 @@
     #doc
   ]
 }
+
+// 关系式
+#let relational_expression(
+  doc, // 关系式内容
+)={
+  #align(center)[
+    #rect()[
+      #doc
+    ]
+  ]
+}
