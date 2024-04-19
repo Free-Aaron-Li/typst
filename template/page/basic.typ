@@ -108,13 +108,13 @@
   //---------
   set text(
     size: 11pt, // 字号
-    font: ("Libertinus Math", "Source Han Serif SC"), // 字体族
+    font: ("Libertinus Math", "Noto Serif CJK SC"), // 字体族
     lang: "zh", // 语言
     region: "cn", // 区域
     fill: black, // 字体颜色
     cjk-latin-spacing: auto, // CJK和拉丁文间自动插入行距
   )
-  show math.equation: set text(font: ("Libertinus Math", "Source Han Serif SC")) // 数学字体
+  show math.equation: set text(font: ("Libertinus Math", "Noto Serif CJK SC")) // 数学字体
 
   //---------
   // 缩进
