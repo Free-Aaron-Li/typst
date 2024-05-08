@@ -114,6 +114,8 @@
     fill: black, // 字体颜色
     cjk-latin-spacing: auto, // CJK和拉丁文间自动插入行距
   )
+
+  set math.mat(delim: "[") // 矩阵默认用“[]”包裹
   show math.equation: set text(font: ("Libertinus Math", "Noto Serif CJK SC")) // 数学字体
 
   //---------
